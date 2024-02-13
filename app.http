@@ -1,0 +1,60 @@
+POST https://jayasaivardhandttqpnjscpikngv.drops.nxtwave.tech/login/
+Content-Type:application/json 
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+###
+GET https://jayasaivardhandttqpnjscpikngv.drops.nxtwave.tech/states/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA3NjMwMTcyfQ.PvbIAp74vz87CBq_8JyCZH81xsMOEJDTwgxh3mORAgo
+###
+
+GET https://jayasaivardhandttqpnjscpikngv.drops.nxtwave.tech/states/:stateId/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA3NjMwMTcyfQ.PvbIAp74vz87CBq_8JyCZH81xsMOEJDTwgxh3mORAgo
+
+###
+
+PUT https://jayasaivardhandttqpnjscpikngv.drops.nxtwave.tech/districts/:districtId/
+Content-type : application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA3NjMwMTcyfQ.PvbIAp74vz87CBq_8JyCZH81xsMOEJDTwgxh3mORAgo
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+###
+
+delete https://jayasaivardhandttqpnjscpikngv.drops.nxtwave.tech/districts/:districtId/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA3NjMwMTcyfQ.PvbIAp74vz87CBq_8JyCZH81xsMOEJDTwgxh3mORAgo
+
+###
+
+POST https://jayasaivardhandttqpnjscpikngv.drops.nxtwave.tech/districts/
+Content-type :application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA3NjMwMTcyfQ.PvbIAp74vz87CBq_8JyCZH81xsMOEJDTwgxh3mORAgo
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+###
+
+
+GET https://jayasaivardhandttqpnjscpikngv.drops.nxtwave.tech/districts/:districtId/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA3NjMwMTcyfQ.PvbIAp74vz87CBq_8JyCZH81xsMOEJDTwgxh3mORAgo
+
+###
+
+GET https://jayasaivardhandttqpnjscpikngv.drops.nxtwave.tech/states/:stateId/stats/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA3NjMwMTcyfQ.PvbIAp74vz87CBq_8JyCZH81xsMOEJDTwgxh3mORAgo
+
+###
